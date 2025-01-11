@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 957 1278">
+  <!-- 红色背景 -->
+  <rect width="957" height="1278" fill="#FF0000"/>
+  
+  <!-- 背景花纹 -->
+  <path d="M0,0 Q478.5,100 957,0 Q957,639 957,1278 Q478.5,1178 0,1278 Q0,639 0,0" 
+        fill="#B22222" opacity="0.3"/>
+
+  <!-- HUST Logo简化版 - 半透明效果 -->
+  <g transform="translate(328.5, 120)" opacity="0.4">
+    <ellipse cx="150" cy="150" rx="150" ry="100" fill="#FFD700"/>
+    <text x="150" y="180" font-family="Arial Black" font-size="60" fill="#FF0000" text-anchor="middle">HUST</text>
+  </g>
+
+  <!-- 金色星星装饰 - 增加更多星星 -->
+  <g>
+    <!-- 星星 -->
+    <path d="M50,50 l5,15 l15,5 l-15,5 l-5,15 l-5,-15 l-15,-5 l15,-5 z" fill="#FFD700" opacity="0.8"/>
+    <path d="M850,150 l5,15 l15,5 l-15,5 l-5,15 l-5,-15 l-15,-5 l15,-5 z" fill="#FFD700" opacity="0.8"/>
+    <path d="M100,1100 l5,15 l15,5 l-15,5 l-5,15 l-5,-15 l-15,-5 l15,-5 z" fill="#FFD700" opacity="0.8"/>
+    <path d="M800,1000 l5,15 l15,5 l-15,5 l-5,15 l-5,-15 l-15,-5 l15,-5 z" fill="#FFD700" opacity="0.8"/>
+    <path d="M150,200 l4,12 l12,4 l-12,4 l-4,12 l-4,-12 l-12,-4 l12,-4 z" fill="#FFD700" opacity="0.6"/>
+    <path d="M750,300 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.7"/>
+    <path d="M250,950 l4,12 l12,4 l-12,4 l-4,12 l-4,-12 l-12,-4 l12,-4 z" fill="#FFD700" opacity="0.6"/>
+    <path d="M650,850 l5,15 l15,5 l-15,5 l-5,15 l-5,-15 l-15,-5 l15,-5 z" fill="#FFD700" opacity="0.8"/>
+    <path d="M450,100 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.7"/>
+    <path d="M500,1150 l4,12 l12,4 l-12,4 l-4,12 l-4,-12 l-12,-4 l12,-4 z" fill="#FFD700" opacity="0.6"/>
+    <path d="M350,700 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.7"/>
+    <path d="M800,600 l5,15 l15,5 l-15,5 l-5,15 l-5,-15 l-15,-5 l15,-5 z" fill="#FFD700" opacity="0.8"/>
+    <path d="M150,500 l4,12 l12,4 l-12,4 l-4,12 l-4,-12 l-12,-4 l12,-4 z" fill="#FFD700" opacity="0.6"/>
+    <path d="M900,400 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.7"/>
+  </g>
+
+  <!-- 用蛇组成的2025 -->
+  <g transform="translate(100, 400)">
+    <!-- 数字2的蛇 -->
+    <g transform="translate(-20,20)">
+      <path d="M50,50 Q100,0 150,50 Q200,100 150,150 Q100,200 50,200 L180,200" 
+            stroke="#FFD700" stroke-width="30" fill="none" stroke-linecap="round"/>
+      <!-- 蛇头 -->
+      <circle cx="180" cy="200" r="20" fill="#FFD700"/>
+      <circle cx="175" cy="195" r="5" fill="#000"/>
+      <circle cx="185" cy="195" r="5" fill="#000"/>
+      <path d="M175,205 Q180,210 185,205" stroke="#000" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- 数字0的蛇 -->
+    <g transform="translate(200,0)">
+      <path d="M100,50 A75,100 0 1,1 100,250 A75,100 0 1,1 100,50" 
+            stroke="#FFD700" stroke-width="30" fill="none" stroke-linecap="round"/>
+      <!-- 蛇头 -->
+      <circle cx="100" cy="50" r="20" fill="#FFD700"/>
+      <circle cx="95" cy="45" r="5" fill="#000"/>
+      <circle cx="105" cy="45" r="5" fill="#000"/>
+      <path d="M95,55 Q100,60 105,55" stroke="#000" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- 数字2的蛇 -->
+    <g transform="translate(400,20)">
+      <path d="M50,50 Q100,0 150,50 Q200,100 150,150 Q100,200 50,200 L180,200" 
+            stroke="#FFD700" stroke-width="30" fill="none" stroke-linecap="round"/>
+      <!-- 蛇头 -->
+      <circle cx="180" cy="200" r="20" fill="#FFD700"/>
+      <circle cx="175" cy="195" r="5" fill="#000"/>
+      <circle cx="185" cy="195" r="5" fill="#000"/>
+      <path d="M175,205 Q180,210 185,205" stroke="#000" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- 数字5的蛇 -->
+    <g transform="translate(600,0)">
+      <path d="M150,50 L50,50 L50,125 Q150,100 150,200 Q150,250 100,250" 
+            stroke="#FFD700" stroke-width="30" fill="none" stroke-linecap="round"/>
+      <!-- 蛇头 -->
+      <circle cx="100" cy="250" r="20" fill="#FFD700"/>
+      <circle cx="95" cy="245" r="5" fill="#000"/>
+      <circle cx="105" cy="245" r="5" fill="#000"/>
+      <path d="M95,255 Q100,260 105,255" stroke="#000" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- 新年祝福文字 -->
+  <g transform="translate(478.5, 800)">
+    <!-- 文字背景装饰 -->
+    <path d="M-200,-20 Q0,-40 200,-20 Q220,0 200,20 Q0,40 -200,20 Q-220,0 -200,-20" 
+          fill="#FFD700" opacity="0.3"/>
+    <!-- 主文字 -->
+    <text x="0" y="0" 
+          font-family="Arial Rounded MT Bold, Microsoft YaHei" 
+          font-size="60" 
+          fill="#FFD700" 
+          text-anchor="middle" 
+          style="font-weight: bold;">蛇 年 快 乐🐍</text>
+    <!-- 装饰性小花 -->
+    <path d="M-220,0 l10,0 l-5,-10 z" fill="#FFD700" transform="rotate(0,-220,0)"/>
+    <path d="M220,0 l10,0 l-5,-10 z" fill="#FFD700" transform="rotate(0,220,0)"/>
+  </g>
+
+  <!-- 更多装饰性星星 -->
+  <g>
+    <path d="M200,800 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.6"/>
+    <path d="M700,900 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.6"/>
+    <path d="M400,1000 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.6"/>
+    <path d="M300,300 l4,12 l12,4 l-12,4 l-4,12 l-4,-12 l-12,-4 l12,-4 z" fill="#FFD700" opacity="0.7"/>
+    <path d="M600,200 l5,15 l15,5 l-15,5 l-5,15 l-5,-15 l-15,-5 l15,-5 z" fill="#FFD700" opacity="0.8"/>
+    <path d="M100,700 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 l9,-3 z" fill="#FFD700" opacity="0.6"/>
+  </g>
+
+  <!-- 右下角水印 -->
+  <g transform="translate(857, 1228)">
+    <text x="0" y="0" 
+          font-family="Times New Roman, serif" 
+          font-size="30" 
+          fill="#FFD700" 
+          text-anchor="middle" 
+          opacity="0.6"
+          style="font-style: italic;">Sorry_Qin</text>
+  </g>
+
+</svg>
