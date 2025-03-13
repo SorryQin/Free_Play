@@ -7,6 +7,8 @@ from pywinauto.application import Application
 # 定义函数：在显示器左半部分截图中查找指定图片的位置
 def find_image_in_left_screen(image_path):
     try:
+        # 等待 1 秒
+        time.sleep(1)
         # 获取屏幕尺寸
         screen_width, screen_height = pyautogui.size()
         # 截取显示器左半部分的截图
@@ -72,6 +74,7 @@ def main():
             # 监测视频是否播放结束
             while not is_video_finished(end_icon_image_path):
                 time.sleep(1)
+            print("监测到任务点已完成")
 
             # 查找下一节按钮并点击
             next_button_pos = find_image_in_left_screen(next_button_path)
